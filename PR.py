@@ -8,7 +8,7 @@ import matplotlib.pyplot as plt
 # ====================== 构建 Fresnel 角谱传递函数 ======================
 def build_fresnel_H(shape, z, wavelength):
     """
-    和你前向代码一致的 Fresnel 角谱传递函数:
+    和前向代码一致的 Fresnel 角谱传递函数:
     H(fx, fy) = exp(-i*k*z) * exp(-i*pi*lambda*z*(fx^2 + fy^2))
 
     shape: (H, W)
